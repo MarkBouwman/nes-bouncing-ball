@@ -1,3 +1,6 @@
+;bouncingball.asm - Example ROM for the NES (Nintendo Entertainment System) showing a bouncing ball. Written in 6502 Assembly.
+;by Mark Bouwman (https://github.com/MarkBouwman)
+  
   .inesprg 1   ; 1x 16KB PRG code
   .ineschr 1   ; 1x  8KB CHR data
   .inesmap 0   ; mapper 0 = NROM, no bank swapping
