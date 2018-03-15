@@ -163,7 +163,7 @@ DrawBall:
   STA sprite_YPOS
   STA sprite_YPOS+4
   CLC
-  ADC #$08                      ; Add 8 to move to the next row
+  ADC #$08                              ; Add 8 to move to the next row
   STA sprite_YPOS+8
   STA sprite_YPOS+12
  
@@ -171,7 +171,7 @@ DrawBall:
   STA sprite_XPOS
   STA sprite_XPOS+8
   CLC
-  ADC #$08                      ; Add 8 to move to the next column
+  ADC #$08                              ; Add 8 to move to the next column
   STA sprite_XPOS+4
   STA sprite_XPOS+12
 
@@ -226,8 +226,6 @@ SetBallTileConfigLoop:                  ; Loop through the sprite setup / config
 palette:
   .db $0F,$20,$10,$00, $0F,$20,$10,$00, $0F,$20,$10,$00, $0F,$20,$10,$00
 
-; initial sprite setup for mario
-; vertical pos|tile number|tile config|horizontal pos
 
 BallSpriteSetup:
   .db $00,$01,$10,$11
