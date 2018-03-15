@@ -1,3 +1,4 @@
-src/*.fns
-src/*.nes
-src/*.deb
+*.fns
+*.nes
+*.deb
+run.bat
